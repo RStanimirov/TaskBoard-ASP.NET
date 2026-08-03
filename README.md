@@ -1,6 +1,6 @@
 # TaskBoard Infrastructure Deployment with Terraform
 
-This repository contains Infrastructure as Code (IaC) written in **Terraform** to automate the deployment of the **TaskBoard** web application and its database on Microsoft Azure.
+This repository contains Infrastructure as Code (IaC) written in **Terraform** to automate the deployment of the **SoftUni TaskBoard** web application and its database on Microsoft Azure.
 
 ## Architecture & Resources
 The configuration provisions the following resources in Azure:
