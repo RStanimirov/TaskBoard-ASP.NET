@@ -10,7 +10,7 @@ terraform {
 provider "azurerm" {
   features {}
   # use your actual azure account subscription id
-  subscription_id = "your-azure-account-subscription-id"
+  subscription_id = "{your-azure-account-subscription-id}"
 }
 
 resource "random_integer" "ri" {
