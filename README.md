@@ -14,7 +14,7 @@ The configuration provisions the following resources in Azure:
 ## File Structure
 * `main.tf` – The core blueprint containing resource declarations and provider setups.
 * `variables.tf` – Declarations for the 10 custom parameters used to customize the environment.
-* `values.tfvars` *(or `terraform.tfvars`)* – The actual configuration values and secrets for the deployment variables.
+* `values.tfvars` – The actual configuration values and secrets for the deployment variables.
 * `outputs.tf` – Post-deployment indicators that dynamically expose the Web App's URL and outbound IP addresses.
 
 ## 🚀 How to Run the Project
