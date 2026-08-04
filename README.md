@@ -37,7 +37,6 @@ Preview what changes Terraform will execute in your cloud environment without ac
 ```bash
 terraform plan -var-file="values.tfvars"
 ```
-*(Note: If you have renamed your variable file to `terraform.tfvars`, you can omit the `-var-file="values.tfvars"` flag from all commands).*
 
 ### 4. Deploy Infrastructure
 Apply the configuration to provision the entire stack in Azure:
